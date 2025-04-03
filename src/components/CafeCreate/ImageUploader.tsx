@@ -7,7 +7,6 @@ interface ImageUploaderProps {
 }
 
 function ImageUploader({
-  images,
   previews,
   setImages,
   setPreviews,
