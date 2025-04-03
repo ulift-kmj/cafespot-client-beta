@@ -1,10 +1,10 @@
 import { useState, useEffect, useCallback, useMemo, useRef } from 'react';
 import { Outlet, Link, useNavigate, useLocation } from 'react-router';
-import { useFavorite } from '../../context/FavoriteProvider';
+import { useFavorite } from '@context/FavoriteProvider';
 import { PiSlidersHorizontal } from 'react-icons/pi';
 import { FaTimes, FaHeart, FaChevronDown } from 'react-icons/fa';
-import { getCafeById } from '../../api';
-import NavbarContainer from './NavbarContainer';
+import { getCafeById } from '@/api';
+import NavbarContainer from '@components/common/NavbarContainer';
 
 interface Cafe {
   id: string;

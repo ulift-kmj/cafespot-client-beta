@@ -1,7 +1,7 @@
 // components/CommentSection.tsx
 import { useState } from 'react';
 import { AiFillPlusCircle, AiFillMinusCircle } from 'react-icons/ai';
-import { addComment } from '../../api';
+import { addComment } from '@/api';
 import { BsChevronDown } from 'react-icons/bs';
 
 interface Comment {

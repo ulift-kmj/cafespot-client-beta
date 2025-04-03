@@ -1,6 +1,6 @@
 import { useEffect, useState, ReactNode } from 'react';
 import { Navigate } from 'react-router';
-import { checkAuth } from '../api';
+import { checkAuth } from '@/api';
 
 interface ProtectedRouteProps {
   children: ReactNode;

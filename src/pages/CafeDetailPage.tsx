@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
-import { getCafeById } from '../api';
+import { getCafeById } from '@/api';
 import Container from '@components/common/Container';
 import Carousel from '@components/CafeDetail/Carousel';
 import CommentSection from '@components/CafeDetail/CafeComment';

@@ -1,6 +1,6 @@
 import { AiOutlineHeart, AiFillHeart } from 'react-icons/ai';
 import { Link } from 'react-router';
-import { useFavorite } from '../../context/FavoriteProvider';
+import { useFavorite } from '@context/FavoriteProvider';
 
 interface Cafe {
   id: string;
